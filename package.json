@@ -6,7 +6,7 @@
   "author": "JAI Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/getjai/ragagent-typescript-sdk.git"
+    "url": "https://github.com/jquant/ragagent-typescript-sdk.git"
   },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
