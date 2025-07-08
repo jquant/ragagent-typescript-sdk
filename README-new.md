@@ -1,25 +1,17 @@
-# @jquant/ragagent-client
+# @getjai/ragagent-client
 
 TypeScript/JavaScript client for the Ragagent API.
 
 ## Installation
 
-First, configure npm to use GitHub Packages for the @jquant scope:
-
 ```bash
-npm config set @jquant:registry https://npm.pkg.github.com
-```
-
-Then install the package:
-
-```bash
-npm install @jquant/ragagent-client
+npm install @getjai/ragagent-client
 ```
 
 ## Usage
 
 ```typescript
-import { Configuration, DefaultApi } from '@jquant/ragagent-client';
+import { Configuration, DefaultApi } from '@getjai/ragagent-client';
 
 const config = new Configuration({
   basePath: 'https://your-ragagent-instance.com',

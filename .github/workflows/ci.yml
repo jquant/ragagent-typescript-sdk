@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@jquant'
           cache: 'npm'
       
       - name: Install dependencies
@@ -45,6 +47,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@jquant'
           cache: 'npm'
       
       - name: Install dependencies

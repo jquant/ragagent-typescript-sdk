@@ -1,7 +1,10 @@
 {
-  "name": "@getjai/ragagent-client",
+  "name": "@jquant/ragagent-client",
   "version": "1.0.0",
-  "publishConfig": { "access": "public" },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com",
+    "access": "public" 
+  },
   "description": "OpenAPI client for ragagent-client",
   "author": "JAI Team",
   "repository": {
