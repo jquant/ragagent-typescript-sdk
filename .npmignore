@@ -1,0 +1,32 @@
+# Source files
+src/
+tsconfig*.json
+.openapi-generator/
+.openapi-generator-ignore
+
+# Development files
+node_modules/
+.github/
+.git/
+.gitignore
+*.tgz
+*.log
+
+# Documentation that shouldn't be in the package
+README.md
+
+# Test files
+test/
+tests/
+*.test.*
+*.spec.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
